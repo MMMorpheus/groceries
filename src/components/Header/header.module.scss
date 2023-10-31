@@ -1,0 +1,28 @@
+@import "../../sass/vars";
+
+.header {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    div {
+        display: flex;
+        align-items: center;
+        gap: 0 20px;
+    }
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+
+    a {
+        all: inherit;
+        cursor: pointer;
+    }
+}
+
