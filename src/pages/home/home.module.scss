@@ -1,39 +1,39 @@
-@import "../../sass/vars";
+@import '../../sass/vars';
 
 .home {
-    max-width: 1650px;
-    padding: 0 25px;
-    margin: 0 auto;
-    display: flex;
-    gap: 0 82px;
+  max-width: 1650px;
+  padding: 0 25px;
+  margin: 0 auto;
+  display: flex;
+  gap: 0 82px;
 
-    &__content {
-        flex-basis: 40%;
-    }
+  &__content {
+    flex-basis: 40%;
+  }
 
-    &__landing {
-        flex-grow: 1;
-        img {
-            width: 723px;
-            height: 723px;
-            margin: 0 auto;
-        }
+  &__landing {
+    flex-grow: 1;
+    img {
+      width: 723px;
+      height: 723px;
+      margin: 0 auto;
     }
+  }
 
-    &__title {
-        font-family: $font-secondary;
-        font-size: 96px;
-        font-weight: 700;
-        margin-bottom: 30px;
-    }
+  &__title {
+    font-family: $font-secondary;
+    font-size: 96px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
 
-    &__desc {
-        font-size: 32px;
-        font-weight: 500;
-        margin-bottom: 40px;
-    }
+  &__desc {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 40px;
+  }
 
-    button + button {
-        margin-left: 45px;
-    }
+  button + button {
+    margin-left: 45px;
+  }
 }
